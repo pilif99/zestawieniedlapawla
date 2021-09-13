@@ -9,8 +9,8 @@ klucze = [(x, y) for x in ['boot', 'protectivegear', 'coat', 'sportactivityglove
 lista_id = [3, 15, 22, 6, 18, 25, 2, 14, 11, 4, 16, 23, 9, 21, 28]
 slownik_id = dict(zip(klucze, lista_id))
 
-lista = os.listdir(r"C:\Users\FLorenzLen\Desktop\Nowy folder")
-os.chdir(r"C:\Users\FLorenzLen\Desktop\Nowy folder")
+lista = os.listdir("Nowy folder")
+os.chdir("Nowy folder")
 
 lista_df = []
 
